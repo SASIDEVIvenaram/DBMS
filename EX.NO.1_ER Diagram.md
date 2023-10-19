@@ -2,7 +2,7 @@
 ### DATE
 ## AIM:
 <div align="justify">
-   To create a ER Diagram for Bank management system or College management system using ERD Plus tool and generate the relational model with schema. 
+   To create a ER Diagram for Bank management system or College management system using ERD Plus tool and generate the relational model with schema.
 </div>
 
 ## Algorithm
