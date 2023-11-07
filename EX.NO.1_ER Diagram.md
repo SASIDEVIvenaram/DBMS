@@ -1,5 +1,5 @@
 # EXP NO 1: ER DIAGRAM CREATION, RELATIONAL MODEL AND SCHEMA GENERATION  
-### DATE
+## DATE
 ## AIM:
 <div align="justify">
    To create a ER Diagram for Bank management system or College management system using ERD Plus tool and generate the relational model with schema. 
@@ -13,11 +13,11 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
-![er](https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/e875b722-4f09-4e9b-8da7-4e7097b9017a)
+<img height=20% width=70% src="https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/e875b722-4f09-4e9b-8da7-4e7097b9017a">
 
 
 ### Relational model
-![relational](https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/09bdd43d-f3af-4bc7-b366-ce6ccac30954)
+<img height=20% width=70% src="https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/09bdd43d-f3af-4bc7-b366-ce6ccac30954">
 
 
 ### SQL DDL Schema 
