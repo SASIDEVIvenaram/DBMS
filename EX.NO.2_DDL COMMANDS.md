@@ -68,15 +68,10 @@ truncate table mystudent;
 drop table mystudent;
 
 ### OUTPUT:
-![Uploading image.png…]()
 
-
-
-
-
-
+![image](https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/ebb895b1-8b0c-4bb2-bbc5-81e7e9df2042)
 
 ## Result:
-         Thus the basic DDL commands in SQL are executed. 
+Thus the basic DDL commands in SQL are executed. 
 
 
