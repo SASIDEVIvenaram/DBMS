@@ -1,6 +1,7 @@
 # Ex. No: 10 DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
 ### DATE: 
-### AIM: To create database connectivity and display the employee table 
+### AIM:
+To create database connectivity and display the employee table 
 
 ### Steps:
 1. Install mysql,visual studio,jdk, extensions of java pack.
@@ -12,45 +13,33 @@
 
 ### Program:
 ```
-package com.employees;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
-public class App {
-	public static void main(String[] args) throws SQLException {
-
-		System.out.println("Connecting to DB");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "Root@2005");
-
-		System.out.println("Connection Successfull");
-
-		Statement stmt = con.createStatement();
-		ResultSet rs = stmt.executeQuery("Select * from employees");
-		
-
-		while (rs.next()) {
-			System.out.println("id :" + rs.getInt("Emp_id"));
-			System.out.println("name :" + rs.getString("Emp_name"));
-			System.out.println("salary :" + rs.getInt("Emp_salary"));
-
-		}
-		con.close();
-		System.out.println("Connection closed");
-
-	}
-
+import java.sql.*;  
+public class App
+{  
+public static void main(String args[])
+{  
+try
+{  
+    Class.forName("com.mysql.cj.jdbc.Driver");  
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/d1","root","sasidevi@2005");  
+//here sonoo is database name, root is username and password  
+    Statement stmt=con.createStatement();  
+    ResultSet rs=stmt.executeQuery("select * from first");  
+    while(rs.next())  
+        System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));  
+    con.close();  
+}
+catch(Exception e)
+{
+     System.out.println(e);
+}  
+}  
 }
 ```
 
 
 ### Output:
-![Screenshot 2023-10-22 171129](https://github.com/Lakshmipriya2005/DBMS/assets/115525361/8ff7f7ea-9d1d-436b-b183-5536d74a6a18)
-
-
+![image](https://github.com/SASIDEVIvenaram/DBMS/assets/118707332/e7a88b22-b2c1-4a28-acf4-7b5d93895599)
 
 
 ### Result:
