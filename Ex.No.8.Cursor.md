@@ -1,4 +1,4 @@
-# Ex. No: 6 PL/SQL program using Cursor 
+# EXP NO 9:PL/SQL program using Cursor 
 ### DATE: 
 ### AIM: 
 To create PL/SQL program to display the customer table 
