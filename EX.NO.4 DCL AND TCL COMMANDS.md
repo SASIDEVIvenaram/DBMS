@@ -147,26 +147,37 @@ rollback to A;
 
 
 ### QUERY:
-
+```sql
+CREATE USER new_user;
+GRANT INSERT, UPDATE ON database_name TO new_user;
+```
 
 ### OUTPUT:
+![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/3c3761a5-28c0-4c83-a203-89e0087e6676)
 
+![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/fd08ac3a-d1a5-4a16-af6a-f3bc5ff24629)
 
 ### Q12) Check the user access and display the result 
 
 
 ### QUERY:
-
+```sql
+SHOW GRANTS FOR new_user;
+```
 
 ### OUTPUT:
+![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/2fbd5d94-7610-4828-a072-c84372c06442)
 
 ### Q13) Revoke the privillages.
 
 ### QUERY:
-
+```sql
+SHOW GRANTS FOR new_user;
+REVOKE INSERT, UPDATE ON database_name FROM new_user;
+SHOW GRANTS FOR new_user;
+```
 
 ### OUTPUT:
-
-
+![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/bd4b2b58-817e-42ea-b84d-a59af0382c11)
 ## RESULT :
 Thus the basic TCL and DCL commands are executed.
