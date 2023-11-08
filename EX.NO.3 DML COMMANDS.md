@@ -17,7 +17,7 @@ To create a manager database and execute DML queries using SQL.
 ```sql
 create table manager(enumber int,ename varchar,salary int,commission int,annualsalary int,Hiredate varchar,designation vachar,deptno int,reporting varchar);
 ```
-## insert the following values into the table
+## Insert the following values into the table
 ```sql
 insert into manager values(7369,'Dharsan',2500,500,30000,'30-June-81','clerk',10,'John');
 insert into manager values(7839,'Subu',3000,400,36000,'1-Jul-82','manager',null,'James');
