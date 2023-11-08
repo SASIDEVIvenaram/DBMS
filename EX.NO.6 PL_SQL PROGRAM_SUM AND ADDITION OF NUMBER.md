@@ -22,7 +22,7 @@ end;
 ```
 
 ### Output:
-<img height=10% width=20% src="https://github.com/Lakshmipriya2005/DBMS/assets/115525361/ca244df1-b136-4b51-abb1-e99402105b6b">
+<img height=20% width=30% src="https://github.com/Lakshmipriya2005/DBMS/assets/115525361/ca244df1-b136-4b51-abb1-e99402105b6b">
 
 ### Result:
 Thust the program was performed sucessfully.
